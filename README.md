@@ -17,6 +17,6 @@ Run the script in the desired environment where it needs to be executed.
 - The script will create or replace sequences and triggers for each eligible table in the user's schema.
 - Any errors encountered during execution will be displayed.
 ## Important Notes:
-Backup: Before executing this script in a production environment, ensure that you have a backup of the database schema.
-Testing: Always test the script in a development or test environment before applying it to production.
-Validation: Validate the functionality of sequences and triggers after script execution to ensure data integrity.
+- Backup: Before executing this script in a production environment, ensure that you have a backup of the database schema.
+- Testing: Always test the script in a development or test environment before applying it to production.
+- Validation: Validate the functionality of sequences and triggers after script execution to ensure data integrity.
